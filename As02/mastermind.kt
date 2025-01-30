@@ -1,11 +1,10 @@
-
 /**
  * Asignación 2: Mastermind
  * Luis Roberto Favela Castro
  * 00000246853
  * 
  */
-
+ 
 data class Evaluacion(val posicionExacta: Int, val posicionIncorrecta: Int)
 
 fun main(args: Array<String>) {
