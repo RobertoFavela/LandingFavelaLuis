@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">As04_CalculadoraIMC</string>
+    <string name="estatura">Estatura</string>
+    <string name="peso">Peso</string>
+    <string name="calcular">Calcular</string>
+    <string name="ingrese_estatura">Ingrese estatura...</string>
+    <string name="ingrese_peso">Ingrese peso...</string>
+</resources>
