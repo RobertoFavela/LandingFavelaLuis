@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_grey"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:src="@drawable/thecheezery"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome to the Cheerezy"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        android:text="Home of the most wonderful desserts ever seen (and tasted) by the human begin"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        />
+
+    <Button
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lets start!"
+        android:textColor="@color/white"
+        android:id="@+id/button_get_start"
+        />
+
+
+
+</LinearLayout>
